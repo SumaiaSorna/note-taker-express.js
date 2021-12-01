@@ -15,14 +15,14 @@ const createNotes = (req, res) => {
   const isValid = validKeys.every((key) => Object.keys(payload).includes(key));
 
   if (isValid) {
-    const newNotes = {
+    const newNote = {
       id: uuidv4(),
       ...payload,
     };
 
     const notes = getDataFromFile();
 
-    books.push(newNote);
+    notes.push(newNote);
 
     writeDataToFile(JSON.stringify(notes));
 
@@ -37,11 +37,11 @@ const deleteNotes = (req, res) => {
 
   const notes = getDataFromFile();
 
-  const book = notes.find((book) => book.id === id);
+  const note = notes.find((note) => note.id === id);
 
   if (!notes) {
     return res.status(404).json({
-      message: `No book with id: ${id}`,
+      message: `No note with id: ${id}`,
     });
   }
 
