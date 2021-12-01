@@ -1,17 +1,1 @@
-[
-  {
-    "id": "4d2ca0f3-597d-488a-80c7-a8aad04c9b91",
-    "title": "Movie Night",
-    "text": "Lets watch a movie"
-  },
-  {
-    "id": "4d2ca0f3-597d-488a-80c7-a8aad04c9b91",
-    "title": "Job Interview",
-    "text": "prepare yourself"
-  },
-  {
-    "id": "4d2ca0f3-597d-488a-80c7-a8aad04c9b91",
-    "title": "Meeting with the Boss",
-    "text": "Take all the"
-  }
-]
+[{"id":"4d2ca0f3-597d-488a-80c7-a8aad04c9b96","title":"Job Interview","text":"prepare yourself"},{"id":"4d2ca0f3-597d-488a-80c7-a8aad04c9b99","title":"Meeting with the Boss","text":"Take all the"}]
