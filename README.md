@@ -55,14 +55,19 @@ See sample response:
 ```json
 [
   {
-    "id": "4d2ca0f3-597d-488a-80c7-a8aad04c9b91",
-    "title": "Test Title",
-    "text": "Test text"
+    "id": "a0ef708c-fae2-4722-bcd3-42fa40e57b9d ",
+    "title": "Job Interview",
+    "text": "prepare yourself"
   },
   {
-    "id": "26d33b16-7277-45f1-b8ec-8acdd5b6fec7",
-    "title": "Test Title",
-    "text": "Test text"
+    "id": "ed7333a6-f9d0-4839-9bfe-d0fc763edaae",
+    "title": "Meeting with the Boss",
+    "text": "Take all the"
+  },
+  {
+    "id": "1a5dfd36-aecc-46df-b0aa-fe2e9daea42c",
+    "title": "Movie Night",
+    "text": "Don't forget the tickets "
   }
 ]
 ```
@@ -74,8 +79,8 @@ POST body:
 
 ```json
 {
-  "title": "yur title",
-  "text": "your text"
+  "title": "Appointment with Gp",
+  "text": "take all the prescription "
 }
 ```
 
