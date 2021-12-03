@@ -21,7 +21,7 @@ Note Taker is an application using Express.js where user can write and save note
 
 ## Getting Started
 
-## User Stories
+## User Story
 
 ```
 AS A small business owner
