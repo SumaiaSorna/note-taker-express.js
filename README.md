@@ -121,13 +121,13 @@ Click [here](https://sumaiasorna.github.io/note-taker-express.js/) to view deplo
 
 ## Heroku link
 
-- Click [here](#) to view deployed application on Heroku.
+- Click [here](https://floating-lowlands-49505.herokuapp.com/) to view deployed application on Heroku.
 
 ## Screenshots
 
-![screenshot of generated html](./assets/images/Note-Taker-landing-page.png)
+![screenshot of note taker landing page](./assets/images/Note-Taker-landing-page.png)
 
-![screenshot of generated html](./assets/images/Note-Taker.png)
+![screenshot of note taker](./assets/images/Note-Taker.png)
 
 ## Questions
 
