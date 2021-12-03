@@ -4,10 +4,10 @@
 
 - [Description](#description)
 - [Getting Started](#getting-started)
+  - [User Story](#user-story)
+  - [Acceptence Criteria](#acceptence-criteria)
   - [Installation](#installation)
   - [Launch the app](#launch-the-app)
-  - [User Stories](#user-stories)
-  - [Acceptence Criteria](#acceptence-criteria)
 - [Link to Repository](#link-to-repository)
 - [Heroku link](#heroku-link)
 - [Endpoints](#endpoints)
@@ -18,21 +18,6 @@
 ## Description
 
 ## Getting Started
-
-### Installation
-
-```
-git clone git@github.com:SumaiaSorna/note-taker-express.js.git
-cd note-taker-express.js/
-code .
-npm i express
-```
-
-### Launch the app
-
-```
-npm run start
-```
 
 ## User Stories
 
@@ -60,6 +45,21 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 
+```
+
+### Installation
+
+```
+git clone git@github.com:SumaiaSorna/note-taker-express.js.git
+cd note-taker-express.js/
+code .
+npm i express
+```
+
+### Launch the app
+
+```
+npm run start
 ```
 
 ## Tools/Technologies
@@ -115,9 +115,9 @@ POST body:
 
 ## Link to repository
 
-Click [here](#) to view deployed application on Github page.
+Click [here](https://sumaiasorna.github.io/note-taker-express.js/) to view deployed application on Github page.
 
-## Links
+## Heroku link
 
 - Click [here](#) to view deployed application on Heroku.
 
