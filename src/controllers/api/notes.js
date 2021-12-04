@@ -20,8 +20,6 @@ const createNotes = (req, res) => {
       ...payload,
     };
 
-    console.log(newNote);
-
     const notes = getDataFromFile();
 
     notes.push(newNote);
