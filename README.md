@@ -1,5 +1,13 @@
 # Note Taker
 
+## Link to repository
+
+Click [here](https://sumaiasorna.github.io/note-taker-express.js/) to view deployed application on Github page.
+
+## Heroku link
+
+- Click [here](https://floating-lowlands-49505.herokuapp.com/) to view deployed application on Heroku.
+
 ## Table Of Contents
 
 - [Description](#description)
@@ -114,14 +122,6 @@ POST body:
 
 - DELETE /notes/:id
   This will delete a note by ID
-
-## Link to repository
-
-Click [here](https://sumaiasorna.github.io/note-taker-express.js/) to view deployed application on Github page.
-
-## Heroku link
-
-- Click [here](https://floating-lowlands-49505.herokuapp.com/) to view deployed application on Heroku.
 
 ## Screenshots
 
