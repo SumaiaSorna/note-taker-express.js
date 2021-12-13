@@ -1,4 +1,5 @@
 const fs = require("fs");
+
 const path = require("path");
 
 const getDataFromFile = () => {
@@ -7,13 +8,11 @@ const getDataFromFile = () => {
     "utf-8"
   );
 
-  const data = JSON.parse(jsonData);
-
-  return data;
+  return JSON.parse(jsonData);
 };
 
-const writeDataToFile = (data) => {
-  fs.writeFileSync(path.join(__dirname, "../db/db.json"), data);
+const writeDataToFile = (jsonData) => {
+  fs.writeFileSync(path.join(__dirname, "../db/db.json"), jsonData);
 };
 
 module.exports = {

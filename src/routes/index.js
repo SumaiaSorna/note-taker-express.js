@@ -1,4 +1,5 @@
 const { Router } = require("express");
+
 const apiRoutes = require("./apiRoutes");
 const viewRoutes = require("./viewRoutes");
 

@@ -1,15 +1,21 @@
 const { getDataFromFile, writeDataToFile } = require("../../utils");
+
 const { v4: uuidv4 } = require("uuid");
 
-const validKeys = ["title", "text"];
-
 const getNotes = async (req, res) => {
-  const notes = await getDataFromFile();
+  try {
+    const notes = await getDataFromFile();
 
-  return res.json(notes);
+    return res.json(notes);
+  } catch (error) {
+    console.error(error.message);
+
+    res.status(500).json({ error: "Something went wrong" });
+  }
 };
 
 const createNotes = (req, res) => {
+  const validKeys = ["title", "text"];
   const payload = req.body;
 
   const isValid = validKeys.every((key) => Object.keys(payload).includes(key));
